@@ -3,10 +3,13 @@ import Header from "./components/Header";
 import TodoItem from "./components/TodoItems";
 import Button from "./components/Button";
 
+import CounterComponent from "./components/CounterComponent";
+
 import "./style.css";
 const App = () => {
   return (
     <div className="todo-container">
+      <CounterComponent />
       <Header title="Todo App"/>
       <TodoItem text="Eat" />
       <TodoItem text="Code" />
